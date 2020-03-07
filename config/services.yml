@@ -1,0 +1,5 @@
+services:
+  router:
+    class: '../service/Router'
+    calls:
+      - { method: 'setServer', arguments: ['@kernel','%router%'] }
