@@ -1,5 +1,5 @@
-import {BaseComponent} from "../../kernel/BaseComponent";
-import {BaseComponentInterface} from "../../kernel/BaseComponentInterface";
+import {BaseComponent} from "@carbonfrog/kernel/BaseComponent";
+import {BaseComponentInterface} from "@carbonfrog/kernel/BaseComponentInterface";
 import path from "path";
 // @ts-ignore
 import {ContainerBuilder, YamlFileLoader, JsFileLoader, JsonFileLoader, FileLoader} from "node-dependency-injection";
