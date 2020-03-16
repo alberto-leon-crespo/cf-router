@@ -26,5 +26,8 @@
   "homepage": "https://github.com/alberto-leon-crespo/cf-router#readme",
   "devDependencies": {
     "link-module-alias": "^1.2.0"
+  },
+  "dependencies": {
+    "@types/node": "^13.9.1"
   }
 }
