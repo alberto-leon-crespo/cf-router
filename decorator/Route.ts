@@ -1,5 +1,5 @@
+import {BaseController} from "@carbonfrog/kernel/BaseController";
 import path from "path";
-import {BaseController} from "../../../kernel/BaseController";
 
 export const Route = (method: string, httpPath: string) => {
     return async (
@@ -14,7 +14,8 @@ export const Route = (method: string, httpPath: string) => {
         }
         if (descriptor && descriptor.value) {
             const controller = class extends BaseController {
-                public [descriptor.value.name] = descriptor.value;
+                // @ts-ignore
+                public [descriptor.value.name]: unknown = descriptor.value;
             };
             const controllerInstance = new controller();
             controllerInstance.setContainer(kernel._Container);
