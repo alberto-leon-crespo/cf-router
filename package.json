@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "postinstall": "npm run build",
+    "prepublishOnly": "npm run build",
+    "publish": "npm publish dist/components/router",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -24,9 +25,6 @@
     "url": "https://github.com/alberto-leon-crespo/cf-router/issues"
   },
   "homepage": "https://github.com/alberto-leon-crespo/cf-router#readme",
-  "devDependencies": {
-    "link-module-alias": "^1.2.0"
-  },
   "dependencies": {
     "@carbonfrog/http": "^0.3.0",
     "@carbonfrog/kernel": "^0.3.0",
