@@ -1,5 +1,5 @@
-import {BaseKernel} from "../../../kernel/BaseKernel";
-import {Server} from "../../../http/Server";
+import {BaseKernel} from "@carbonfrog/kernel/BaseKernel";
+import {Server} from "@carbonfrog/http/Server";
 import path from "path";
 
 export default class BaseRouter {

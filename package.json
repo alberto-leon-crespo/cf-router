@@ -28,6 +28,8 @@
     "link-module-alias": "^1.2.0"
   },
   "dependencies": {
+    "@carbonfrog/http": "^0.3.0",
+    "@carbonfrog/kernel": "^0.3.0",
     "@types/node": "^13.9.1"
   }
 }
