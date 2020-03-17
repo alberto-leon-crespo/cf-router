@@ -1,6 +1,6 @@
 {
   "name": "@carbonfrog/router",
-  "version": "0.3.2",
+  "version": "0.4.0",
   "description": "CarbonFrong TS Framework",
   "main": "index.js",
   "scripts": {
@@ -30,5 +30,9 @@
     "@carbonfrog/http": "^0.3.0",
     "@carbonfrog/kernel": "^0.3.0",
     "@types/node": "^13.9.1"
+  },
+  "devDependencies": {
+    "shelljs": "^0.8.3",
+    "shx": "^0.3.2"
   }
 }
