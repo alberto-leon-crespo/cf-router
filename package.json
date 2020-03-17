@@ -1,12 +1,12 @@
 {
   "name": "@carbonfrog/router",
-  "version": "0.3.0",
+  "version": "0.3.2",
   "description": "CarbonFrong TS Framework",
   "main": "index.js",
   "scripts": {
     "build": "tsc",
-    "prepublishOnly": "npm run build && npm run copy-package",
-    "publish": "npm publish dist/components/router",
+    "prepublish-build": "npm run build && npm run copy-package",
+    "publish": "npm run prepublish-build && npm publish dist/components/router",
     "copy-package": "shx cp -p package.json dist/components/router/package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
