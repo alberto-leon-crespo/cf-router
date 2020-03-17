@@ -18,15 +18,6 @@
     "composite": true
   },
   "include": [
-    "**/*",
-    "../../http/JSONResponse.ts",
-    "../../http/ParameterBag.ts",
-    "../../http/Response.ts",
-    "../../http/Request.ts",
-    "../../http/Server.ts",
-    "../../kernel/BaseComponentInterface.ts",
-    "../../kernel/BaseController.ts",
-    "../../kernel/BaseControllerInterface.ts",
-    "../../kernel/BaseKernel.ts"
+    "**/*"
   ]
 }
