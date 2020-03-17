@@ -6,8 +6,8 @@
   "scripts": {
     "build": "tsc",
     "prepublish-build": "npm run build && npm run copy-package",
-    "publish": "npm run prepublish-build && npm publish dist/components/router",
-    "copy-package": "shx cp -p package.json dist/components/router/package.json",
+    "publish": "npm run prepublish-build && npm publish ./dist/components/router",
+    "copy-package": "shx cp package.json ./dist/components/router/package.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
