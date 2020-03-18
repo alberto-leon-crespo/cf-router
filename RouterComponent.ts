@@ -1,7 +1,6 @@
 import {BaseComponent} from "@carbonfrog/kernel/BaseComponent";
 import {BaseComponentInterface} from "@carbonfrog/kernel/BaseComponentInterface";
 import path from "path";
-// @ts-ignore
 import {ContainerBuilder, YamlFileLoader, JsFileLoader, JsonFileLoader, FileLoader} from "node-dependency-injection";
 
 export class RouterComponent extends BaseComponent implements BaseComponentInterface{
