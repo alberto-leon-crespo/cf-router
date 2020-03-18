@@ -1,35 +1,35 @@
 {
-  "name": "@carbonfrog/router",
-  "version": "0.4.2",
-  "description": "CarbonFrong TS Framework",
-  "main": "index.js",
-  "scripts": {
-    "build": "tsc",
-    "install": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/alberto-leon-crespo/cf-router.git"
-  },
-  "keywords": [
-    "Carbonfrog",
-    "Typescript",
-    "Framework",
-    "Router"
-  ],
-  "author": "Alberto León Crespo",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/alberto-leon-crespo/cf-router/issues"
-  },
-  "homepage": "https://github.com/alberto-leon-crespo/cf-router#readme",
-  "dependencies": {
-    "@carbonfrog/kernel": "^0.4.2",
-    "@types/node": "^13.9.1"
-  },
-  "devDependencies": {
-    "shelljs": "^0.8.3",
-    "shx": "^0.3.2"
-  }
+ "name": "@carbonfrog/router",
+ "version": "0.4.3",
+ "description": "CarbonFrong TS Framework",
+ "main": "index.js",
+ "scripts": {
+  "build": "tsc",
+  "install": "npm run build",
+  "test": "echo \"Error: no test specified\" && exit 1"
+ },
+ "repository": {
+  "type": "git",
+  "url": "git+https://github.com/alberto-leon-crespo/cf-router.git"
+ },
+ "keywords": [
+  "Carbonfrog",
+  "Typescript",
+  "Framework",
+  "Router"
+ ],
+ "author": "Alberto León Crespo",
+ "license": "MIT",
+ "bugs": {
+  "url": "https://github.com/alberto-leon-crespo/cf-router/issues"
+ },
+ "homepage": "https://github.com/alberto-leon-crespo/cf-router#readme",
+ "dependencies": {
+  "@carbonfrog/kernel": "^0.4.2",
+  "@types/node": "^13.9.1"
+ },
+ "devDependencies": {
+  "shelljs": "^0.8.3",
+  "shx": "^0.3.2"
+ }
 }
