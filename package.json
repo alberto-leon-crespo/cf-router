@@ -1,11 +1,10 @@
 {
  "name": "@carbonfrog/router",
- "version": "0.4.5",
+ "version": "0.4.6",
  "description": "CarbonFrong TS Framework",
  "main": "index.js",
+ "type": "module",
  "scripts": {
-  "build": "tsc",
-  "install": "npm run build",
   "test": "echo \"Error: no test specified\" && exit 1"
  },
  "repository": {
@@ -31,6 +30,7 @@
  "devDependencies": {
   "renamer": "^1.1.4",
   "shelljs": "^0.8.3",
-  "shx": "^0.3.2"
+  "shx": "^0.3.2",
+  "typescript": "^3.8.3"
  }
 }
