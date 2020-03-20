@@ -1,6 +1,6 @@
 {
  "name": "@carbonfrog/router",
- "version": "0.4.6",
+ "version": "0.4.7",
  "description": "CarbonFrong TS Framework",
  "main": "index.js",
  "type": "module",
