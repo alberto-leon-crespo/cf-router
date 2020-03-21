@@ -2,8 +2,12 @@
  "name": "@carbonfrog/router",
  "version": "0.4.13",
  "description": "CarbonFrong TS Framework",
- "main": "index.js",
  "type": "module",
+ "main": "./dist/commonjs/index.js",
+ "module": "./dist/esm/index.js",
+ "exports": {
+  "./dist/esm": "./dist/esm/index.js"
+ },
  "scripts": {
   "test": "echo \"Error: no test specified\" && exit 1"
  },
