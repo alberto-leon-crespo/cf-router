@@ -1,6 +1,6 @@
 {
  "name": "@carbonfrog/router",
- "version": "0.4.9",
+ "version": "0.4.13",
  "description": "CarbonFrong TS Framework",
  "main": "index.js",
  "type": "module",
@@ -24,7 +24,7 @@
  },
  "homepage": "https://github.com/alberto-leon-crespo/cf-router#readme",
  "dependencies": {
-  "@carbonfrog/kernel": "^0.4.2",
+  "@carbonfrog/kernel": "^0.4.13",
   "@types/node": "^13.9.1"
  },
  "devDependencies": {
