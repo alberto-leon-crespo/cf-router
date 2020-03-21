@@ -1,5 +1,5 @@
 import {BaseController} from "@carbonfrog/kernel/BaseController";
-import path from "path";
+import * as path from "path";
 
 export const Route = (method: string, httpPath: string) => {
     return async (

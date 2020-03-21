@@ -1,6 +1,6 @@
 import {BaseKernel} from "@carbonfrog/kernel/BaseKernel";
 import {Server} from "@carbonfrog/kernel/http/Server";
-import path from "path";
+import * as path from "path";
 
 export default class BaseRouter {
 
