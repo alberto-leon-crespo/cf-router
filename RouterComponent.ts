@@ -1,5 +1,5 @@
-import {BaseComponent} from "@carbonfrog/kernel/BaseComponent";
-import {BaseComponentInterface} from "@carbonfrog/kernel/BaseComponentInterface";
+import {BaseComponent} from "@carbonfrog/kernel/commonjs/BaseComponent";
+import {BaseComponentInterface} from "@carbonfrog/kernel/commonjs/BaseComponentInterface";
 import * as path from "path";
 import {ContainerBuilder, YamlFileLoader, JsFileLoader, JsonFileLoader, FileLoader} from "node-dependency-injection";
 
