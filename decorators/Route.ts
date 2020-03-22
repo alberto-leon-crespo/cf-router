@@ -1,4 +1,4 @@
-import {BaseController} from "@carbonfrog/kernel/BaseController";
+import {BaseController} from "@carbonfrog/kernel/commonjs/BaseController";
 import * as path from "path";
 
 export const Route = (method: string, httpPath: string) => {
